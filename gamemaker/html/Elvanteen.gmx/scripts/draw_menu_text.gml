@@ -1,0 +1,9 @@
+t=argument0
+tx=argument1+(x1/32)
+ty=argument2+(y1/32)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_set_color(back2)
+draw_text(tx*32,ty*32,t)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)

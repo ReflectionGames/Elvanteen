@@ -1,0 +1,14 @@
+spr=argument0
+sub=argument1
+xs=argument2+(x1/32)
+ys=argument3+(y1/32)
+ws=argument4
+hs=argument5
+if(argument4==-1)&&(argument5==-1)
+{
+    draw_sprite(spr,sub,xs*32,ys*32)
+}
+else 
+    {
+        draw_sprite_stretched(spr,sub,xs*32,ys*32,ws*32,hs*32)
+    }
