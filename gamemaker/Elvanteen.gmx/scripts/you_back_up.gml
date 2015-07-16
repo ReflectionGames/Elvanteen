@@ -1,0 +1,19 @@
+you=argument0
+you.speed=0
+you.image_speed=0
+if(you.direction==0)
+{
+    you.x-=32
+}
+if(you.direction==90)
+{
+    you.y+=32
+}
+if(you.direction==180)
+{
+    you.x+=32
+}
+if(you.direction==270)
+{
+    you.y-=32
+}

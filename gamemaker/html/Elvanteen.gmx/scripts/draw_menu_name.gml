@@ -1,6 +1,0 @@
-draw_set_halign(fa_center)
-draw_set_valign(fa_middle)
-draw_set_color(back2)
-draw_text(x1+((back_w*32)/2),y1+16,string(global.back[0]))
-draw_set_halign(fa_left)
-draw_set_valign(fa_top)
